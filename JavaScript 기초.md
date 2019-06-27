@@ -1,12 +1,12 @@
-자료형
-기본 자료형 (Primitive) 인 여섯 가지 데이터 형
-부울
-없는
-정의되지 않음
-번호
-끈
-기호 (ECMAScript 6에 추가됨)
-별도로 객체 도 있음
+#자료형
+-기본 자료형 (Primitive) 인 여섯 가지 데이터 형
+ -부울
+ -없는
+ -정의되지 않음
+ -번호
+ -끈
+ -기호 (ECMAScript 6에 추가됨)
+ -별도로 객체 도 있음
 js 제어 할 태그 지정하기
 <body style="background-color:black;"> 
 	<h1><a herf="index.html">WEB</a></h1>
