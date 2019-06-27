@@ -1,5 +1,6 @@
 
 # 자료형
+=========
 
 - 기본 자료형 (Primitive) 인 여섯가지 데이터 타입
   - [Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
