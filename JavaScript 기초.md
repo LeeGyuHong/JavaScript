@@ -6,8 +6,9 @@
  -번호
  -끈
  -기호 (ECMAScript 6에 추가됨)
- -별도로 객체 도 있음
-js 제어 할 태그 지정하기
+-별도로 객체 도 있음
+##
+#js 제어 할 태그 지정하기
 <body style="background-color:black;"> 
 	<h1><a herf="index.html">WEB</a></h1>
     <input type="button" value="night" onclic="
