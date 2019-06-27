@@ -1,14 +1,20 @@
-#자료형
--기본 자료형 (Primitive) 인 여섯 가지 데이터 형
- -부울
- -없는
- -정의되지 않음
- -번호
- -끈
- -기호 (ECMAScript 6에 추가됨)
--별도로 객체 도 있음
-##
-#js 제어 할 태그 지정하기
+
+# 자료형
+
+- 기본 자료형 (Primitive) 인 여섯가지 데이터 타입
+  - [Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
+  - [Null](https://developer.mozilla.org/en-US/docs/Glossary/Null)
+  - [Undefined](https://developer.mozilla.org/en-US/docs/Glossary/Undefined)
+  - [Number](https://developer.mozilla.org/en-US/docs/Glossary/Number)
+  - [String](https://developer.mozilla.org/en-US/docs/Glossary/String)
+  - [Symbol](https://developer.mozilla.org/en-US/docs/Glossary/Symbol) (ECMAScript 6 에 추가됨)
+- 별도로 [Object](https://developer.mozilla.org/en-US/docs/Glossary/Object) 도 있음
+
+## 
+
+## js 제어할 태그 선택하기
+
+~~~
 <body style="background-color:black;"> 
 	<h1><a herf="index.html">WEB</a></h1>
     <input type="button" value="night" onclic="
@@ -21,11 +27,16 @@
     	document.querySelector('body').style.color = "black";
     ">
 </body>    
-조건문
-운영자
+~~~
 
-"A === B": 비교 연산자. 거짓 값 false
-"A <B"
+## 조건문
+
+연산자
+
+- "A===B" : 비교연산자. 왼쪽의 값과 오른쪽의 값이 같으면 true 다르면 false
+- "A &lt; B"  &lt 는 <
+
+~~~
 <body> 
 	<h1><a herf="index.html">WEB</a></h1>
     <input id="night_day";type="button" value="night" onclick="
@@ -41,9 +52,15 @@
     	}
     ">
 </body>    
-리팩토링 (리팩토링)
-비공식적이고 비경제적인 부분을 활용하면 편재하고 중복성을 유지할 수있다.
+~~~
 
+
+
+## 리팩토링(refactoring)
+
+코딩을 하고 나서 비효율적인 부분을 효율적으로 만들어 가독성을 높이고 유지보수하기 편하게 하고 중복성을 줄이는 것
+
+~~~
 <body> 
 	<h1><a herf="index.html">WEB</a></h1>
     <input type="button" value="night" onclick="
@@ -60,7 +77,11 @@
             }
         ">
 </body>    
-배열
+~~~
+
+## 배열
+
+~~~
 <script>
 	var array = ["one","two"];
 </script>
@@ -78,7 +99,11 @@
     <script>
       array.write(coworkers.length);
     </script>
-repeat
+~~~
+
+## 반복문
+
+~~~
 <body>
 	<h1>Loop</h1>
 	<script>
@@ -92,7 +117,11 @@ repeat
 		}
 	</script>
 </body>
-배열 및 반복문 (루프 및 배열)
+~~~
+
+## 배열과 반복문(Loop & Array)
+
+~~~
 <body>
 	<h1>Loop & Array</h1>
 	<script>
@@ -106,7 +135,11 @@ repeat
         }
     </script>
 </body>
-combined repeat application
+~~~
+
+### 배열 반복문 적용
+
+~~~
 <body> 
 	<h1><a herf="index.html">WEB</a></h1>
     <input type="button" value="night" onclick="
@@ -132,13 +165,20 @@ combined repeat application
           }
       ">
 </body>    
-함수
+~~~
+
+## 함수
+
+~~~
 <script>
 	function sum(num1, num2) {
         return num1+num2;
 	}
 	document.write('<div style="color:red">' + sum(3,4)'</div>');
 </script>
+~~~
+
+~~~
 
 <script>
 nightHandler(self)
@@ -169,3 +209,6 @@ nightHandler(self)
     <input type="button" value="night" onclick="
     	nightHandler(this)"
 </body>    
+~~~
+
+
